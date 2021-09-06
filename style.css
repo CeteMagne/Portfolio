@@ -3,26 +3,80 @@
 /*画面のスタイルシート*/
 
 body{
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "Noto Sans JP";
     margin: 0;
     min-width: 1076px;
 }
 
-/*{header}のスタイルシート*/
+/*ヘッダーのスタイルシート*/
 
-.color-green{
-    color: #00abae;
+.block-header{
+    margin: 10px 0;
+    padding: 0 20px 10px;
+    box-shadow: 0 10px 10px -5px rgba(204,204,204,0.3);
 }
 
-header .block-header {
-    margin: 10px;
-    padding: 0px 20px 10px;
-    box-shadow: 0px 10px 10px -5px rgb(204 204 204 / 30%);
-}
-
-header .block-header a {
-    font-size: 40px;
-    color: #000;
+.block-header a {
+    font-size: 39px;
+    color: black;
     text-decoration: none;
     letter-spacing: 1px;
+}
+
+.color-green {
+    color: #00ABAE;
+}
+
+/*メインのスタイルシート*/
+
+.block-main {
+    text-align: center;
+    margin: 42px 0;
+}
+
+h2.sub-title {
+    font-size: 31px;
+}
+
+.item-list {
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+b.name {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 3px;
+}
+
+p.introduce {
+    text-align: left;
+    margin: 3px;
+}
+
+p.color-green {
+    font-size: 13px;
+    margin: 0;
+}
+
+ul.icon-list {
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 0 auto;
+    display: flex;
+}
+
+a.github {
+    margin-right: 107px;
+}
+
+img.github {
+    width: 47px;
+}
+
+img.twitter {
+    width: 47px;
 }
